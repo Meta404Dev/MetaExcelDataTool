@@ -42,7 +42,7 @@ var table = EDTable_Monster.Get();
 打开**Assets/3rd/ExcelDataTool/Editor/ExcelConvet/ExcelConvertPathSetting** 
 所有路径都可以自定义修改
 
-## 6.修改UI生成代码模板
+## 6.修改Excel生成代码模板
 
 模板文件在**Assets/3rd/ExcelDataTool/Editor/ExcelConvet/Template/ExcelDataClassTemplate.txt**
 可以自由修改为你想要的模板
