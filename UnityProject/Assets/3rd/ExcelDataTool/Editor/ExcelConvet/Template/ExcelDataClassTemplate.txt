@@ -1,0 +1,37 @@
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using System.IO;
+using UnityEngine;
+using XFramework.ExcelData;
+
+/// <summary>
+/// Auto Generate Class!!!
+/// </summary>
+[System.Serializable]
+public class {0} : EDItemBase
+{
+{2}
+    public int ID { get { return id; } }
+
+    public static {0} GetById(int id)
+    {
+        return ExcelDataManager.Instance.GetExcelItem<{1}, {0}>(id);
+    }
+}
+
+/// <summary>
+/// Auto Generate Class!!!
+/// </summary>
+public class {1} : EDTableBase<{0}>
+{
+    public static {1} Get()
+    {
+        return ExcelDataManager.Instance.GetExcelTable<{1}, {0}>();
+    }
+
+    public static {0} GetById(int id)
+    {
+        return ExcelDataManager.Instance.GetExcelItem<{1}, {0}>(id);
+    }
+}
