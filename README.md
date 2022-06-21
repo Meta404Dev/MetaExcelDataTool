@@ -1,7 +1,7 @@
 
 
 
-# MetaExcelDataTool v0.4
+# MetaExcelDataTool v0.1
 
 MetaExcelDataTool是为JEngine定制的Excel导表工具，当然你也可以通过很简单的修改，移植到自己的工程项目
 
